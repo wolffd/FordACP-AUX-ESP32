@@ -75,7 +75,7 @@ For the electronics implementation I took greatest inspiration from [Krysztof Pi
 Some experiment snapshots:
 
 ESP32 with connected PCM5102A ![ESP32 with connected PCM5102A](Resources/esp32-wroom-da-usbc.jpg)
-Testing setup ESP32 with connected MAX485 and termination resistors on ACP side. PCM5102A connected on underside of ESP32![ESP32 with connected MAX485](esp+max.jpg)
+Testing setup ESP32 with connected MAX485 and termination resistors on ACP side. PCM5102A connected on underside of ESP32![ESP32 with connected MAX485](Resources/esp+max.jpg)
 
 ### License
 
