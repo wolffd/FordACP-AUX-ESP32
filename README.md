@@ -84,7 +84,7 @@ Any adaptation of this work must comply with licenses of previous works and incl
   - [Krysztof Pintscher](http://www.instructables.com/id/Ford-CD-Emulator-Arduino-Mega/)
   - [Dale Thomas](http://www.instructables.com/id/Ford-Bluetooth-Interface-Control-phone-with-stock-/)
   - [Anson Liu](http://ansonliu.com) (MIT License)
-  - Daniel Wolff (MIT License)
+  - [Daniel Wolff](https://github.com/wolffd/) (MIT License)
 
 ### Disclaimer 
 Note that this is a hobbyist project and proceed at your own risk. 
