@@ -42,7 +42,7 @@ The current implementation does not need a ESP32 restart but merely repeats the 
 #### Handshake recover as device by itself
 You may want to just implement the above solution in a smaller ESP32-C3 package, and let this fix the communication with an exiting Bluetooth audio-ACP solution by sniffing and interjecting the additional Handshake response to the ACP bus.
 
-ACP-, ACP+, differential signals of the repeated handshake response (green), then radio continuing the protocol successully. ![ACP-, ACP+, differential signals of the repeated handshake response (green), then radio continuing the protocol successully.](acp_handshake_resumes_aftter_resending_initial_response.jpg)
+ACP-, ACP+, differential signals of the repeated handshake response (green), then radio continuing the protocol successully. ![ACP-, ACP+, differential signals of the repeated handshake response (green), then radio continuing the protocol successully.](Resources/acp_handshake_resumes_aftter_resending_initial_response.jpg)
 
 #### Bluetooth audio
 The ESP32 will be handling this, and you will be in full control of the audio and meta-data that is sent from the phone. Note that the ESP32 is loaded heavily with this, and some of the ESP32 devices I tested were not able to reproduce audio without clicks and gaps. Using a separate bluetooth audio decoder may be an option to avoid this.
